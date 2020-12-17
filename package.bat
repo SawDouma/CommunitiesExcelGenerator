@@ -1,1 +1,1 @@
-pyinstaller --onefile main.spec
+venv\Scripts\pyinstaller.exe --onefile main.spec

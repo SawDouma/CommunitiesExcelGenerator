@@ -4,12 +4,17 @@
 
 ## 环境配置
 * PyCharm 2020.3 (Community Edition) Build #PC-203.5981.165, built on December 2, 2020
-* Python 包:
+    
+* 需要把venv目录下的pyvenv.cfg文件里的path修改为您的python的安装路径
+![img_1.png](img_1.png)
+  
+* Python 包依赖，可在Pycharm中打开requirements.txt，点击右上角的install按钮自动安装
 ![img.png](img.png)
+
   
 ## 打包方法
 * windows系统直接运行根目录下的package.bat即可
-* 其他类Unix系统请手动在终端内执行命令 `pyinstaller --onefile main.spec`
+* 其他类Unix系统请手动在终端内执行命令 `venv/Scripts/pyinstaller.exe --onefile main.spec`
 
 ## License
 ```
